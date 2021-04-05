@@ -1,17 +1,16 @@
-import os
 from setuptools import setup
 
 # python setup.py bdist
-#
 # pip install wheel
+# pip3 install wheel
 # python setup.py bdist_wheel
 # pip install .whl
 
 
 setup(
-    name='good',
+    name='pets',
     version='1.0',
-    packages=['.good'],
+    packages=['.pets'],
     include_package_data=True,
     license='Test License',
     description='Test description',
