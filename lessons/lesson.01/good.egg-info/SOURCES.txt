@@ -1,6 +1,0 @@
-setup.py
-good/hi.py
-good.egg-info/PKG-INFO
-good.egg-info/SOURCES.txt
-good.egg-info/dependency_links.txt
-good.egg-info/top_level.txt
