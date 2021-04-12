@@ -8,9 +8,9 @@ class Product:
 
 
 class Drink:
-
-    def test(self):
-        print('Drink')
+    pass
+    # def test(self):
+    #     print('Drink')
 
 
 class Milk(Drink, Product):
@@ -18,8 +18,8 @@ class Milk(Drink, Product):
         super().__init__(price)
         self.calories = calories
 
-    def test(self):
-        print('Milk')
+    # def test(self):
+    #     print('Milk')
 
 
 milk = Milk(1, 10)

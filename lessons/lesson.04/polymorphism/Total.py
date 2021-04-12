@@ -8,8 +8,20 @@ class SumCounter:
     def __init__(self):
         self.n = 10
 
+    def total(self, a, b):
+         print("total")
+
     def total(self, a):
         return self.n + int(a)
+
+
+
+
+class AdvancedSumCounter(SumCounter):
+    # pass
+
+    def total(self, a):
+        print('I am an advanced sum counter')
 
 
 class LengthCounter:
@@ -21,7 +33,14 @@ class LengthCounter:
 
 
 sum_counter = SumCounter()
-length_counter = LengthCounter()
+# advanced_sum_counter = AdvancedSumCounter()
+sum_counter.total(1, 2)
+sum_counter.total(1, 2)
 
-print(sum_counter.total(35))  # Вывод: 45
-print(length_counter.total(35))  # Вывод: 4
+# length_counter = LengthCounter()
+
+# print(sum_counter.total(35))  # Вывод: 45
+# print(advanced_sum_counter.total(35))
+# print(length_counter.total(35))  # Вывод: 4
+
+

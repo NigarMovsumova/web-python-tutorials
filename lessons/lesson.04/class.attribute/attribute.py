@@ -10,7 +10,10 @@ class Point:
 
 
 print(Point.class_attribute)
+Point.class_attribute = False
+print(Point.class_attribute)
 
-point = Point(4, 6)
-print(point, point.x, point.y)
-print(point.class_attribute)
+
+# point = Point(4, 6)
+# print(point, point.x, point.y)
+# print(point.class_attribute)

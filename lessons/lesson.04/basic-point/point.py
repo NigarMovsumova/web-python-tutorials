@@ -9,4 +9,5 @@ class Point:
 point = Point()
 print(type(Point))
 print(type(point))
+# print(type(5))
 print(point)
